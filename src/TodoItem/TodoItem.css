@@ -1,0 +1,40 @@
+.TodoItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px  rgba(17, 17, 17, 0.15);
+    margin: 20px;
+
+  }
+
+  .TodoItem:hover {
+    background-color: #ebebeb;
+    transition: .3s ease;    
+
+  }
+  
+  .TodoItem-t {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .TodoItem-t--complete {
+    text-decoration: line-through;
+  }
+  
+  
+  .Icon-check--active {
+    color: #31a735;
+  }
+  
+
+  .Icon-delete:hover {
+    color: rgb(212, 18, 18);
+  }
+  

@@ -1,0 +1,56 @@
+.empty-container {
+    position: fixed; /* Fija la posición en la pantalla */
+    top: 85%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centrar exactamente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.empty-message {
+    font-size: 24px;
+    margin-bottom: 20px; /* Espacio entre el mensaje y la flecha */
+}
+
+.arrow-container {
+    position: relative;
+    width: 150px; /* Ajusta según el recorrido deseado */
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-body {
+    position: absolute;
+    left: 0;
+    width: 100px; /* Largo del cuerpo de la flecha */
+    height: 8px;
+    background-color: #3498db; /* Color del cuerpo de la flecha */
+    animation: move-arrow 1.5s infinite;
+}
+
+.arrow-head {
+    position: absolute;
+    left: 100px; /* Posición de la punta respecto al cuerpo */
+    width: 0;
+    height: 0;
+    border-left: 10px solid #3498db; /* Color de la punta */
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    animation: move-arrow 1.5s infinite;
+}
+
+@keyframes move-arrow {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px); /* Ajusta según la distancia deseada */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
