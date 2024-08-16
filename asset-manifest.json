@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactGestorTODOS/static/css/main.ca30b867.css",
+    "main.js": "/ReactGestorTODOS/static/js/main.c0105720.js",
+    "index.html": "/ReactGestorTODOS/index.html",
+    "static/media/delete.svg": "/ReactGestorTODOS/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/ReactGestorTODOS/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.ca30b867.css.map": "/ReactGestorTODOS/static/css/main.ca30b867.css.map",
+    "main.c0105720.js.map": "/ReactGestorTODOS/static/js/main.c0105720.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca30b867.css",
+    "static/js/main.c0105720.js"
+  ]
+}
